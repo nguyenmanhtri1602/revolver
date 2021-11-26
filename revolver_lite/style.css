@@ -1,0 +1,23 @@
+/* To adjust video fit into creative dimension. creative is 1024x1332 ratio. */
+.apps-creative-video {
+  bottom: unset;
+  top: 0;
+}
+
+/* Adjust this for the video control layer. */
+.controllers-container {
+  background: none !important;
+  bottom: 2%;
+  z-index: 0;
+}
+
+#background {
+  position: relative;
+}
+
+#video_container {
+  position: absolute;
+  width: 107%;
+  top: 0%;
+  left: -3%;
+}
